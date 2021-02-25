@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+body{
+    width: 100%;
+    height: 100vh;
+}
+a{
+    color: #28497a;
+    text-decoration: none;
+    transition: .3s;
+    margin: .5em;
+}
+a:hover{
+    color: #3260a3;
+}
+.layout{
+    width: 90%;
+    margin: 0 auto;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    width: 100%;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    background-color: #fff;
+}
+header .layout{
+    display: flex;
+    justify-content: space-between;
+}
+.logo-block > .logo{
+    width: 100px;
+    height: 100px;
+    background-image: url(./shutterstock_583717939.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+header .header-menus{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.wrapper{
+    background-image: url(./1211.png_860.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #e5e5e5;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 600px;
+}
+.wrapper .layout{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.wrapper h1{
+    font-size: 50px;
+    color: #28497a;
+    margin: 1em 0;
+}
+.wrapper p{
+    width: 50%;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 300px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    width: 100%;
+    background-color: #fff;
+}
+footer .layout{
+    display: flex;
+    justify-content: space-between;
+}
+footer .footer-menus{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer .footer-menus>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 1em;
+}
+footer .logo-block> .logo{
+    width: 250px;
+    height: 250px;
+}
